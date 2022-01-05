@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        margin: 0 auto;
+      }
+      thead {
+        background-color: silver;
+      }
+      tbody {
+        background-color: #eee;
+      }
+      th,
+      td:not(:last-child) {
+        padding: 1rem;
+        text-align: center;
+        transition: all 400ms ease;
+      }
+      td:hover {
+        padding-left: 0.2rem;
+      }
+
+      tr:hover {
+        background-color: silver;
+      }
+      td button {
+        padding: 0.8rem 1.5rem;
+        background-color: tomato;
+        border: 0;
+        outline: 0;
+        color: white;
+        transition: all 400ms ease;
+        cursor: pointer;
+      }
+      td button:hover {
+        background-color: rgb(228, 72, 33);
+        padding-left: 1.2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="name">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Nik</th>
+            <th>İmeyl</th>
+            <th>Mob.</th>
+            <th>Küçə</th>
+            <th>Otaq №</th>
+            <th>Şəhər</th>
+            <th>Zip kod</th>
+            <th>Geo lat/lng</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="ajax.js"></script> -->
+  </body>
+</html>
